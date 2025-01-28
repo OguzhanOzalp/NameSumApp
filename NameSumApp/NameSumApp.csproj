@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="NameSumCalculatorApp">
+      <HintPath>..\..\NameSumCalculatorApp\NameSumCalculatorApp\bin\Debug\net8.0\NameSumCalculatorApp.dll</HintPath>
+    </Reference>
+    <Reference Include="NameSumCalculator_0">
+      <HintPath>..\..\NameSumCalculator_0\NameSumCalculator_0\bin\Debug\net8.0\NameSumCalculator_0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
